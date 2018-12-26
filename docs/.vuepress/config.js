@@ -1,45 +1,20 @@
 module.exports = {
     title: '六学',
     description:
-        '人类的本质就是复读',
+        '戏说不是胡说，改编不是乱编',
     head: [['link', { rel: 'icon', href: '/favicon.png' }]],
     themeConfig: {
         nav: [
-            {
-                text: 'Blog',
-                items: [
-                    { text: 'JavaScript', link: '/JavaScript/' },
-                    { text: 'CSS', link: '/CSS/' },
-                    { text: 'HTTP', link: '/HTTP/' },
-                    { text: 'Library', link: '/Library/' },
-                    { text: 'Wheel', link: '/Wheel/' },
-                ],
-            },
-            { text: 'Project', link: '/Project/' },
-            { text: 'Resume', link: '/Resume/' },
-            { text: 'GitHub', link: 'https://github.com/hubingliang' },
+            { text: '六学', link: '/SixScience/' },
+            { text: '微博', link: 'https://www.weibo.com/liuxiaolingtong' },
         ],
         sidebar: {
-            '/JavaScript/': [
+            '/SixScience/': [
                 '',
-                'shallow-copy',
-                'sort',
-                'event-model',
-                'inherit',
-                'this',
-                'event-commission',
-                'let&const',
-                'qqq',
-                'requestAnimationFrame',
-                'Browser',
-                'deep-copy',
-                'type',
+                'SixNature',
+                'SixAdhibition',
             ],
-            '/CSS/': ['', '47css-trick', 'rem', 'clear-float'],
-            '/HTTP/': ['', 'security', 'caching', 'status-code'],
-            '/Library/': ['', 'emoji'],
-            '/Wheel/': [''],
         },
     },
-    base: '/',
+    base: '/SixScience/dist/',
 }

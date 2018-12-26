@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /hero.jpg
+heroImage: /six.jpg
 actionText: 深入浅出六学
-actionLink: /JavaScript/
+actionLink: /SixScience/
 ---
